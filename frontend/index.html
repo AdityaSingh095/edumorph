@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EduMorph - Personalized Learning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>EduMorph Learning Platform</h1>
+        
+        <section id="roadmap-generator">
+            <h2>Study Roadmap Generator</h2>
+            <input type="text" id="topic" placeholder="Enter Topic">
+            <input type="text" id="duration" placeholder="Study Duration">
+            <button onclick="generateRoadmap()">Generate Roadmap</button>
+            <div id="roadmap-results"></div>
+        </section>
+
+        <section id="quiz-generator">
+            <h2>Quiz Generator</h2>
+            <input type="text" id="quiz-topic" placeholder="Enter Topic">
+            <select id="quiz-difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+            <input type="number" id="quiz-number" placeholder="Number of Questions">
+            <button onclick="generateQuiz()">Generate Quiz</button>
+            <div id="quiz-results"></div>
+        </section>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

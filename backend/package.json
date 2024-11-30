@@ -1,0 +1,13 @@
+{
+    "name": "edumorph-backend",
+    "version": "1.0.0",
+    "dependencies": {
+      "express": "^4.17.1",
+      "cors": "^2.8.5",
+      "python-shell": "^5.0.0",
+      "sqlite3": "^5.0.2"
+    },
+    "scripts": {
+      "start": "node server.js"
+    }
+  }

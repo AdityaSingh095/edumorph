@@ -42,7 +42,7 @@ EduMorph is organized into the following directories:
 ### Prerequisites
 
 * Node.js and npm (or yarn)
-* Python 3.x (Optional, for generating content with Python scripts)
+* Python 3.x (for generating content with Python scripts)
 
 ### Installation
 
@@ -66,9 +66,6 @@ We welcome contributions to improve EduMorph! Please consider the following guid
   * Include clear documentation for any code changes.
   * Open a pull request to propose your changes.
 
-**License**
-
-This project is licensed under the [MIT License](https://www.google.com/url?sa=E&source=gmail&q=https://www.google.com/url?sa=E%26source=gmail%26q=https://choosealicense.com/licenses/mit/).
 
 **Additional Notes**
 

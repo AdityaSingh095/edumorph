@@ -5,7 +5,7 @@ import sys
 import json
 
 # Set your API key for Google Generative AI
-API_KEY = "AIzaSyBI5khp-t99inOWXFwjIFYWVdIPFM3YnHM"  # Replace with your actual API key
+API_KEY = "Your API key"  # Replace with your actual API key
 genai.configure(api_key=API_KEY)
 
 

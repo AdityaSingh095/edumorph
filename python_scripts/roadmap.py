@@ -5,7 +5,7 @@ import ast
 import json
 import sys
 
-genai.configure(api_key='AIzaSyCbrJpwa5Ly7JQf_souBnzDNAvvqPlnmJ0')
+genai.configure(api_key='Your API Key')
 model = genai.GenerativeModel("models/gemini-1.5-pro")
 
 # Connect to the SQLite database
